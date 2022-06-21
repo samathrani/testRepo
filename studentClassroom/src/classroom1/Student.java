@@ -17,6 +17,7 @@ public class Student {
 	int firstClassStudCount;
 	int secondClassStudCount;
 	static int numberOfStudents = 10;
+	int numberOfStudent;
 
 	public Student(float Maths, float Physics, float Chemistry, float Biology) {
 		this.subject1 = Maths;
@@ -25,7 +26,6 @@ public class Student {
 		this.subject4 = Biology;
 
 	}
-
 	public float calculateSum() {
 
 		this.Sum = (subject1 + subject2 + subject3 + subject4);
