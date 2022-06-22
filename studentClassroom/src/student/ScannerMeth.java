@@ -12,6 +12,14 @@ public class ScannerMeth {
 	float sum;
 	float average;
 	String grade;
+	
+	float sub1;
+	float sub2;
+	float sub3;
+	float sub4;
+	float sum;
+	float average;
+	String grade;
 
    static int numOfStudents; 
 	static int numOfOutstanding;
